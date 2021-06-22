@@ -332,7 +332,7 @@ On the other hand *settings* really seems like a misnomer for *configuration*.
 The following list details the changes to the current implementation.
 Besides the renaming of numerous events and attributes, the most significant change is the removal of the labels associated with configuration files.
 
-#.  Rename ``settingsVersions`` event to ``configurationsAvailable``.
+#.  Rename ``settingVersions`` event to ``configurationsAvailable``.
 
     This topic presents **all** the available configurations that can be loaded by the CSC (see :ref:`the proposal <section-default-configuration>` to change the way CSC handles configuration).
     As will be discussed in the following section, only the files that override the initial and site-specific values will be displayed.
