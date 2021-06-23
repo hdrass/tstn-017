@@ -358,6 +358,7 @@ Besides the renaming of numerous events and attributes, the most significant cha
     #.  Add ``url`` attribute
     #.  Add ``schemaVersion`` attribute
     #.  Rename the ``otherSettingsEvent`` event to ``otherInfo``.
+    #.	Delete the ``settingsVersion`` attribute. It is no longer needed.
 
     The event will publish the selected values once the CSC is configured.
 
